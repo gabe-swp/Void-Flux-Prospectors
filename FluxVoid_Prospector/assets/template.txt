@@ -1,0 +1,26 @@
+Input = require "libraries/boipushy-master/Input"
+
+ = {}
+
+function :init()
+	input = Input()
+	talkies.font = love.graphics.newFont("fonts/Oxanium-SemiBold.ttf", 32)
+end
+
+function :enter()
+	love.graphics.clear()
+	--input
+
+end
+
+function :update()
+
+
+end
+
+function :draw()
+push:start()
+mouse_scaler()
+
+push:finish()
+end
